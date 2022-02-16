@@ -31,9 +31,9 @@ Bug Tracker
 -----------
 
 You found another quantity, that should be displayed according to
-``Product Unit of Measure`` digits?
+``Product Unit of Measure`` digits? Please file an issue on
+`GitHub Issues <https://github.com/ayudoo/product_unit_of_measure_extension/issues/new>`_.
 
-Please file an issue on `GitHub Issues <https://github.com/ayudoo/product_unit_of_measure_extension>`_.
 Thank You!
 
 
