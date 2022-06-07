@@ -4,6 +4,13 @@ from odoo import fields, models
 class StockQuant(models.Model):
     _inherit = "stock.quant"
 
+    quantity = fields.Float(
+        'Quantity',
+        help='Quantity of products in this quant, in the default unit of measure of the product',
+        readonly=True,
+        digits="Product Unit of Measure",
+    )
+
     inventory_quantity = fields.Float(
         "Inventoried Quantity",
         compute="_compute_inventory_quantity",
